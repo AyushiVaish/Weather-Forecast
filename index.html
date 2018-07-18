@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Mansoon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	
+	<link rel="stylesheet" href="style.css">
+	
+	</head>
+	
+	<body>
+	
+	<nav class="navbar navbar-default">
+	
+	  <div class="container">
+	  <div class ="navbar-header">
+	  <a class="navbar-brand" href="/">Mansoon</a>
+	  </div>
+	  </div>
+	  </nav>
+	  
+	  <div class="container">
+	  <div class="jumbotron text-center">
+	  <h1>Check Mansoon in the city</h1>
+	  
+					<div>
+						<input class="text-center" type="text" placeholder="Enter location. E.g New Delhi" id="location" required>
+						</br>
+					</div>
+					</br>
+					<div>
+						
+						<button type="button" class="btn btn-primary" id="btn_weather" onclick="checkweather();">Check Mansoon</button>
+						</div>
+			</div>
+		</div>
+		
+		
+		
+		<div id="message">
+	  </div>
+	  <div class="result" id="result">
+	  </div>
+	</div>
+	<div id="last" style="text-align:center";>
+	  <h2>Enter valid location and hit Mansoon button to get the result.<h2>
+	  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
